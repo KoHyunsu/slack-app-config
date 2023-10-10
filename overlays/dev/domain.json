@@ -1,0 +1,12 @@
+[
+    { 
+        "op": "replace", 
+        "path": "/spec/rules/0/host", 
+        "value": "maah.cloudxcable.com"
+    },
+    { 
+        "op": "replace", 
+        "path": "/spec/tls/0/hosts/0", 
+        "value": "maah.cloudxcable.com"
+    }
+]
