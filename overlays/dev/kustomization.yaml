@@ -11,4 +11,4 @@ resources:
 - namespace.yaml
 images:
 - name: sce06147/maah-slack-app
-  newTag: bfdd7db48a4e8d0b2d2df5537de07cb77dc4e818
+  newTag: 5317bc9b55057a357839bffdce74533cc5ccbab6
