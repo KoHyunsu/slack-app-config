@@ -27,4 +27,5 @@ spec:
       volumes:
       - name: aws-credentials
         hostPath:
-          path: /root/.aws/
+          path: /root/.aws
+          type: Directory
