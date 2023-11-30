@@ -23,9 +23,9 @@ spec:
             name: maah-config
         volumeMounts:
         - name: aws-credentials
-          mountPath: /usr/app/.aws/
+          mountPath: /usr/app/.aws
       volumes:
       - name: aws-credentials
         hostPath:
-          path: /root/.aws
-          type: Directory
+          path: /root/.aws/credentials
+          type: File
