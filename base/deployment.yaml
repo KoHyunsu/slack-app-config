@@ -21,3 +21,10 @@ spec:
         envFrom:
         - configMapRef:
             name: maah-config
+        volumeMounts:
+        - name: aws-credentials
+          mountPath: /usr/app/
+      volumes:
+      - name: aws-credentials
+        hostPath:
+          path: /root/.aws
